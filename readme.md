@@ -8,6 +8,7 @@ Check out AndInjector repo to see how to load libhook.so
 
 ### Build process
 cd jni
+
 ndk-build
 
 Library files can be found in libs folder. 
