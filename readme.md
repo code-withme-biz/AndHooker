@@ -1,6 +1,13 @@
-Hooker for ARM, ARM64 and X86
+# AndHooker
 
-Hooker is a library to invoke Java method after injection. It had been tested under Android 7.0. This project will generate libhook.so for each platform eg ARM, ARM64 and X86. 
-First of all libhook.so must be injected before any calling of java method. 
+## Android hooker for ARM, ARM64 and X86
 
-Check out AndInjector repo to see how to inject DEX to any android process(app)  
+AndHooker is to inject DEX or APK to any Android process after injection. The project will generate libhook.so file which will be loaded to target process.
+
+Check out AndInjector repo to see how to load libhook.so
+
+### Build process
+cd jni
+ndk-build
+
+Library files can be found in libs folder. 
